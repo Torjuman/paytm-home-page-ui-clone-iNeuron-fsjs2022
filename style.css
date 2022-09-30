@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.font-body-poppins {
+    font-family: "Poppins", sans-serif;
+}
+.font-body-montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0.4rem;
+}
+::-webkit-scrollbar-track {
+    background: rgb(247, 244, 237);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 186, 242);
+    border-radius: 50px;
+}
+
+.text-blue-dark {
+    color: rgb(15, 74, 138);
+}
+.hover\:text-blue-dark:hover {
+    color: rgb(15, 74, 138);
+}
+.hover\:text-blue-light:hover {
+    color: rgb(0, 186, 242);
+}
+.text-blue-light {
+    color: rgb(0, 186, 242);
+}
+.bg-blue-dark {
+    background-color: rgb(15, 74, 138);
+}
+.hover\:bg-blue-dark:hover {
+    background-color: rgb(15, 74, 138);
+}
+.bg-blue-light {
+    background-color: rgb(0, 186, 242);
+}
+.hover\:bg-blue-light:hover {
+    background-color: rgb(0, 186, 242);
+}
+.hover\:bg-blue-light-100:hover {
+    background-color: rgba(0, 186, 242, 0.8);
+}
+.hover\:bg-gray-light:hover {
+    --tw-bg-opacity: 0.1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.shadow-up {
+    box-shadow: 0px -2px 10px 0px rgba(0, 0, 0, 0.5);
+}
